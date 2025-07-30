@@ -1,0 +1,25 @@
+{
+  "function": "minecraft:set_lore",
+  "entity": "this",
+  "lore": [
+    {
+      "text": "Charge III",
+      "color": "gray",
+      "italic": false
+    },
+    "Charge: ",
+    {
+      "score": {
+        "objective": "charge_helmet",
+        "name": "@s"
+      },
+      "type": "score",
+      "extra": [
+        " / 50"
+      ],
+      "italic": true
+    }
+  ],
+  "mode": "replace_all",
+  "conditions": []
+}

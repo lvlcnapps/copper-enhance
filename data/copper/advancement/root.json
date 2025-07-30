@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:copper_ingot"
+    },
+    "title": "Copper Challenges",
+    "description": "Discover new ways to use copper and get full copper armor",
+    "background": "minecraft:block/copper_block",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "example": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": "minecraft:copper_helmet"
+            },
+            "chest": {
+              "items": "minecraft:copper_chestplate"
+            },
+            "legs": {
+              "items": "minecraft:copper_leggings"
+            },
+            "feet": {
+              "items": "minecraft:copper_boots"
+            }
+          }
+        }
+      }
+    }
+  }
+}

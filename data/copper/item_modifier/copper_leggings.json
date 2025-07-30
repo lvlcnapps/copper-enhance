@@ -1,0 +1,25 @@
+{
+  "function": "minecraft:set_lore",
+  "entity": "this",
+  "lore": [
+    {
+      "text": "Charge III",
+      "color": "gray",
+      "italic": false
+    },
+    "Charge: ",
+    {
+      "score": {
+        "objective": "charge_leggings",
+        "name": "@s"
+      },
+      "type": "score",
+      "extra": [
+        " / 70"
+      ],
+      "italic": true
+    }
+  ],
+  "mode": "replace_all",
+  "conditions": []
+}

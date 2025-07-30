@@ -1,0 +1,22 @@
+{
+  "condition": "minecraft:damage_source_properties",
+  "predicate": {
+    "tags": [
+      {
+        "id": "minecraft:is_player_attack",
+        "expected": false
+      }
+    ],
+    "direct_entity": {
+      "type": "minecraft:player",
+      "equipment": {
+        "mainhand": {
+          "items": "minecraft:diamond_axe",
+          "components": {
+            "minecraft:enchantment_glint_override": true
+          }
+        }
+      }
+    }
+  }
+}
